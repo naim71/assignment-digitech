@@ -13,22 +13,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
     <!-- Linking Google Font End -->
-
     <title>DigiTech</title>
+
 </head>
 
 <body>
     <header>
         <!-- Navbar start -->
+       
         <nav>
-            <div id="logo">
+            <a href="./index.html" id="logo">
                 <img src="./images/logo.png" alt="">
                 <h1>DigiTech</h1>
+            </a>
+            <div class="navlinks">
+                <ul class="navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
             </div>
-            <ul id="navbar">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hamburger">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              
         </nav>
         <!-- Navbar end -->
     </header>
@@ -81,37 +88,37 @@
             <div class="card">
                 <img src="./images/Service Cards Logo/Group 2483.png" alt="">
                 <h3>Social Media Marketing</h3>
-                <p>Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt.</p>
+                <p>Social media marketing is the use of social media platforms and websites to promote a product or service.</p>
                 <button>Read More</button>
             </div>
             <div class="card">
                 <img src="./images/Service Cards Logo/Group 2485.png" alt="">
                 <h3>Advnaced Analytics</h3>
-                <p>Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt.</p>
+                <p>Sophisticated data analysis for improving marketing performance and digital marketing results</p>
                 <button>Read More</button>
             </div>
             <div class="card">
                 <img src="./images/Service Cards Logo/Group 2486.png" alt="">
                 <h3>Paid advertising</h3>
-                <p>Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt.</p>
+                <p>Paid advertising refers to the use of paid media to promote products or services</p>
                 <button>Read More</button>
             </div>
             <div class="card">
                 <img src="./images/Service Cards Logo/Group 2488.png" alt="">
                 <h3>SEO Optimization</h3>
-                <p>Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt.</p>
+                <p>Goal of SEO optimization is to improve website's visibility and ranking on search engines.</p>
                 <button>Read More</button>
             </div>
             <div class="card">
                 <img src="./images/Service Cards Logo/Group 2489.png" alt="">
                 <h3>Content Marketing</h3>
-                <p>Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt.</p>
+                <p>Content marketing goal is to attract and retain target audience through valuable, relevant content.</p>
                 <button>Read More</button>
             </div>
             <div class="card">
                 <img src="./images/Service Cards Logo/Group 2490.png" alt="">
                 <h3>Funnel Optimization</h3>
-                <p>Lorem ipsum dolor sit amet, ea mundi malorum cum, ocurreret reprehendunt.</p>
+                <p>Increased conversions, better customer understanding, improved experience,better resource allocation.</p>
                 <button>Read More</button>
             </div>
         </div>
@@ -124,19 +131,31 @@
             <p>Our vision is to empower businesses to better understand and connect with their target audience.</p>
             <div id="project-count-grid">
                 <div class="count-card">
-                    <p>20k+</p>
+                    <span class="count">
+                        <p id="customer">0</p>
+                        <p>+</p>
+                    </span>
                     <p class="sub-text">Happy Customer</p>
                 </div>
                 <div class="count-card">
-                    <p>142+</p>
+                    <span class="count">
+                        <p id="team"></p>
+                        <p>+</p>
+                    </span>
                     <p class="sub-text">Professional Team</p>
                 </div>
                 <div class="count-card">
-                    <p>41k+</p>
+                    <span class="count">
+                        <p id="projects"></p>
+                        <p>+</p>
+                    </span>
                     <p class="sub-text">Project Done</p>
                 </div>
                 <div class="count-card">
-                    <p>30</p>
+                    <span class="count">
+                        <p id="experience"></p>
+                        <p>+</p>
+                    </span>
                     <p class="sub-text">Years Experienced</p>
                 </div>
             </div>
@@ -256,45 +275,45 @@
     </section>
     <!-- Custom package Deal -->
     <section class="custom-package">
-        <div>
+        <div id="custom-package-text">
             <h2>Need Custom Package?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil perferendis quam hic similique quo fuga.
-            </p>
+            <p>Unleash the Power of Customization with our Ad Packages and get the best deal of the town.</p>
         </div>
-        <button>Contact Us</button>
+        <a href="./contact.html"><button>Contact Us</button></a>
     </section>
-
-    <!-- Testimonial Slider -->
 
     <!-- Footer -->
     <section id="footer">
         <div class="main-footer">
-          <div class="logoinfo" data-aos="fade-up">
-            <img src="./images/logo.png" alt="">
-            <h2>DigitTech</h2>
-            <p>A Digital Marketing Agency</p>
+            <div class="logoinfo" data-aos="fade-up">
+                <img src="./images/logo.png" alt="">
+                <h2>DigitTech</h2>
+                <p>A Digital Marketing Agency</p>
+            </div>
+            <div class="contact-details">
+                <h1>Contact Us</h1>
+                <li>
+                    <a href="tel:+919326048690">+00 12354 78965</a>
+                </li>
+                <li>
+                    <a href="mailto:yourmail@gmail.com">digitech@gmail.com</a>
+                </li>
+                </li>
+            </div>
+            <div class="com " data-aos="fade-up">
+                <h1>About</h1>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="contact-details">
-            <h1>Contact Us</h1>
-            <li>
-              <a href="tel:+919326048690">+00 12354 78965</a></li>
-            <li>
-              <a href="mailto:yourmail@gmail.com">digitech@gmail.com</a></li>
-            </li>
-        </div>
-        <div class="com " data-aos="fade-up">
-            <h1>About</h1>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      <footer>© Your Copyright 2021 All Rights Reserved</footer>
-      </section>
-
+        <footer>© Your Copyright 2021 All Rights Reserved by Nayeem</footer>
+    </section>
+    <!-- ======================================== 
+    JavaScript Section Start  
+    ========================================  -->
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

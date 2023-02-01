@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/contact-form.css">
+    <!-- Linking Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Linking Google Font End -->
+
     <title>Digitech - Contact</title>
 </head>
 
@@ -14,14 +21,20 @@
     <header>
         <!-- Navbar start -->
         <nav>
-            <div id="logo">
+            <a href="./index.html" id="logo">
                 <img src="./images/logo.png" alt="">
                 <h1>DigiTech</h1>
+            </a>
+            <div class="navlinks">
+                <ul class="navbar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                </ul>
             </div>
-            <ul id="navbar">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hamburger">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>
+              
         </nav>
         <!-- Navbar end -->
     </header>
@@ -81,14 +94,12 @@
             <div class="com " data-aos="fade-up">
                 <h1>About</h1>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
-        <footer>© Your Copyright 2021 All Rights Reserved</footer>
+        <footer>© Your Copyright 2021 All Rights Reserved by Nayeem</footer>
     </section>
 </body>
 <script src="./js/script.js"></script>

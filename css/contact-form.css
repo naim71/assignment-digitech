@@ -52,7 +52,7 @@
   }
 
   .formbold-btn {
-    width: 175px;
+    width: 100%;
     height: 50px;
     background-color: #FF6854;
     color: #F4F3EF;
@@ -87,8 +87,9 @@
   .w-full {
     width: 100%;
   }
-  @media (min-width: 540px) {
-    .sm\:w-half {
-      width: 50%;
+  @media (max-width: 480px) {
+    .formbold-form-wrapper {
+      width: 90vw;
+      padding: 15px;
     }
   }
