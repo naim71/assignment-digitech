@@ -500,7 +500,7 @@ nav a{
 
 /* -- Custom Package Start -- */
 .custom-package {
-    background: url('/images/stacked-peaks-haikei.svg');
+    background: url('./images/stacked-peaks-haikei.svg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -647,6 +647,9 @@ footer a {
         height: 200px;
         margin-top: -100%;
     }
+    .navbar li a:hover {
+        color: #F4F3EF;
+    } 
     .navbar.mobile-menu{
         margin-top: 0;
     }
@@ -794,16 +797,16 @@ footer a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(255, 104, 84, 0.5);
+        background-color: rgba(255, 104, 84, 1);
         backdrop-filter: blur(17px);
         width: 100vw;
         right: 0;
         top: 80px;
         height: 200px;
-        margin-right: -100%;
+        margin-top: -100%;
     }
     .navbar.mobile-menu{
-        margin-right: 0;
+        margin-top: 0;
     }
     .hamburger{
         display: block;
